@@ -1,4 +1,4 @@
-# Apply NTLK, Word2vec, PCA and wordcloud on Harry Potter Series
+# Apply NTLK analysis on Harry Potter Series
 https://medium.com/@patrickhk/practice-ntlk-word2vec-pca-wordcloud-jieba-on-harry-potter-series-and-chinese-content-ca6f845b3293
 
 I will briefly demonstrate how to apply NTLK (Natural Language Toolkit) and Word2Vec to do some basic analysis on Harry Potter Series, then visualize the relation of word vectors by PCA/wordcloud.
@@ -32,5 +32,5 @@ The average sentence length have similar shape to the above total word count gra
 ![p9](https://cdn-images-1.medium.com/max/800/1*r3CGbT6KozfkQ9BMfKU9Rw.png)
 
 ## Lexical diversity:
-Lexical diversity is directly proportional to the diversity of vocab. It is the ratio of number of unique words/ number of words. Surprisingly the first few episodes have higher lexical diversity, this is probably due to the much lower number of words, almost half of the amount to the last few episodes(less repeated words). Therefore if someone wants to learn English by reading Harry Potter, the second book Harry Potter and the Chamber of Secrets maybe the best time-efficient choice.
+Lexical diversity is directly proportional to the diversity of vocab. It is the ratio of number of unique words/ number of words. Surprisingly the first few episodes have higher lexical diversity, this is probably due to the much lower number of words, almost half of the amount to the last few episodes(less repeated words). Therefore if someone wants to learn English by reading Harry Potter, the second book Harry Potter and the Chamber of Secrets maybe the best time-efficient choice.<br/>
 ![p10](https://cdn-images-1.medium.com/max/800/1*xVZ_G4g4NBKFNAQf6ncx5g.png)
