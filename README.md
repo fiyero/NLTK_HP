@@ -1,4 +1,4 @@
-# Apply NLTK analysis on Harry Potter Series
+# Apply NLTK analysis on Harry Potter Series :smile:
 https://medium.com/@patrickhk/practice-ntlk-word2vec-pca-wordcloud-jieba-on-harry-potter-series-and-chinese-content-ca6f845b3293
 
 I will briefly demonstrate how to apply NLTK (Natural Language Toolkit) and Word2Vec to do some basic analysis on Harry Potter Series, then visualize the relation of word vectors by PCA/wordcloud.
@@ -38,3 +38,9 @@ Lexical diversity is directly proportional to the diversity of vocab. It is the 
 ### Discrepancy of the word counts from the official number ?
 ![p11](https://cdn-images-1.medium.com/max/800/1*Q0LA_gzaxeW_e08gLbN_6g.png)<br/>
 This is probably due to NLTK tokenization error. Whenever NLTK encounters words with “n’t”, it tends to tokenize the word into two separate words. As you can see in the below picture “didn’t” is tokenized into “did” and “n’t”, instead of “didn’t”. Different tokenization method has their own pros and cons, use them depend on your situation. Sometime text.split() with regular expression can perform pretty well.<br/>
+
+-------------------------------------------------------------------------------------------------------------------------------------
+### More about me
+[[:pencil:My Medium]](https://medium.com/@patrickhk)<br/>
+[[:house_with_garden:My Website]](https://www.fiyeroleung.com/)<br/>
+[[:space_invader:	My Github]](https://github.com/fiyero)<br/>
